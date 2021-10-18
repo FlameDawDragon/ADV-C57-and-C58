@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding-top: 800px;
     background: linear-gradient(#00b5b8 30%, #00b853 70%);
+    text-align: center;
 }
 
 .profile {
@@ -94,11 +95,17 @@ p {
     font-size: 35px;
     font-family:fantasy;
 }
-
-
-
-
-
+a {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+}
+.article:hover {
+    color: black;
+}
+html {
+    scroll-behavior: smooth;
+}
 
 
 
